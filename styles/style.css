@@ -151,7 +151,7 @@ body {
     backdrop-filter: blur(5px);
     position: absolute;
     top: 9rem;
-    right:-1.2rem;
+    right:-1.5rem;
 }
 
 .workout-title,
@@ -176,4 +176,89 @@ body {
     color: rgba(255, 255, 255, 0.65);
     font-size: 0.7rem;
     font-weight: 400;
+}
+
+.your-habits-content{
+    width: 40vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.habits-title{
+    font-size: 3vw;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.habits-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9vw;
+}
+
+.image-habit img{
+    border-radius: 50%;
+}
+
+.image-description{
+    width: 190px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pic-title{
+    margin: 10px 0;
+}
+
+.habit-image{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 4rem;
+    gap: 5rem;
+}
+
+#join{
+    width: 13vw;
+    margin-top: 2rem;
+}
+
+.extra-image img{
+    width: 20vw;
+    height: 36vh;
+    margin-left: 13vw;
+    border-radius: 1rem;
+}
+
+.extra-mile-box{
+    margin: 0 3rem;
+}
+
+.extra-mile-title{
+    font-size: 2.8vw;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.extra-mile-description{
+    width: 25vw;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.extra-mile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 45vh;
+    margin-top: 6rem;
 }
