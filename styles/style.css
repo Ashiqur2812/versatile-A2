@@ -54,6 +54,10 @@ body {
     margin: 5px 5px;
 }
 
+.ham-burger{
+    display: none;
+}
+
 .body-container {
     margin: 30px 0
 }
@@ -73,7 +77,7 @@ body {
 .btn-second {
     background-color: #E6533C;
     color: white;
-    padding: 16px 45px;
+    padding: 16px 60px;
     border: none;
     border-radius: 2.7rem;
     font-size: 1rem;
@@ -188,14 +192,19 @@ body {
 }
 
 .habits-title{
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
 
 .habits-description{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9vw;
+    font-size: 0.9rem;
+}
+
+.habits-line{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
 }
 
 .image-habit img{
@@ -228,9 +237,8 @@ body {
 }
 
 .extra-image img{
-    width: 20vw;
-    height: 36vh;
-    margin-left: 13vw;
+    width: 24rem;
+    margin-left: 7.5rem;
     border-radius: 1rem;
 }
 
@@ -252,7 +260,7 @@ body {
 
 .extra-mile{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(5px);
     border-radius: 1rem;
@@ -261,4 +269,95 @@ body {
     width: 70vw;
     height: 45vh;
     margin-top: 6rem;
+}
+
+@media screen and (max-width: 576px){
+    .nav-options{
+        display: none;
+    }
+
+    .ham-burger{
+        display: block;
+        margin-top: 0.8rem;
+    }
+
+    .body-section{
+        flex-direction: column;
+    }
+   
+    .body-container h1{
+        font-size: 3rem;
+    }
+
+    .body-description{
+        width: 16rem;
+    }
+
+    .btn-second{
+        padding: 16px 50px;
+    }
+
+    #btn{
+        padding: 16px 30px;
+    }
+
+    .video-container{
+        margin: 18rem 0;
+    }
+
+    .workout{
+        top: 3rem;
+        right: 1rem;
+    }
+
+    .habit-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habits-title{
+        font-size: 1.8rem;
+        /* border: 1px solid red; */
+        width: 280px;
+    }
+
+    .habits-description{
+        width: 280px;
+    }
+
+    .your-habits-content{
+        margin-right: 10rem;
+        margin-top: 1%;
+    }
+
+    .habits-line{
+        width: 13rem; 
+        margin-left: -0.5rem;
+    }
+
+    .extra-mile{
+        grid-template-columns: repeat(1, 1fr);
+        height: 33rem;
+    }
+
+    .extra-mile-title{
+        width: 15rem;
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .extra-mile-description{
+        width: 17rem;
+        margin-left: 1rem;
+    }
+
+    #join{
+        width: 18rem;
+        margin-left: 1rem;
+    }
+
+    .extra-image img{
+        width: 18rem;
+        margin-left: 4rem;
+    }
+
 }
