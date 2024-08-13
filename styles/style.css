@@ -375,6 +375,122 @@ form{
     margin-bottom: 2.2rem;
 }
 
+.meet-content{
+    width: 40vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.meet-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.meet-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    height: 42rem;
+    max-width: 1050px;
+    padding-bottom: 10rem;
+    border-radius: 1.2rem;
+    padding-left: 1.7rem;
+   
+}
+
+.team-container img{
+    width: 93%;
+}
+
+.team-image img{
+    height: 93%;
+    border-radius: 1.2rem;
+}
+
+.team-image p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    position: absolute;
+}
+
+.team-image h3{
+    position: absolute;
+}
+
+.title-1{
+    top: 255px;
+    left: 50px;
+}
+
+.description-1{
+    top: 280px;
+    left: 50px;
+}
+
+.title-2{
+    top: 255px;
+    left: 390px;
+}
+
+.description-2{
+    top: 280px;
+    left: 390px;
+}
+
+.title-3{
+    top: 255px;
+    right: 180px;
+}
+
+.description-3{
+    top: 280px;
+    right: 270px;
+}
+
+.title-4{
+    bottom: 75px;
+    left: 50px;
+}
+
+.description-4{
+    bottom: 55px;
+    left: 50px;
+}
+
+.title-5{
+    bottom: 75px;
+    left: 395px;
+}
+
+.description-5{
+    bottom: 55px;
+    left: 395px;
+}
+
+.title-6{
+    bottom: 75px;
+    right: 185px;
+}
+
+.description-6{
+    bottom: 55px;
+    right: 270px;
+}
+
+  /* Responsive Section */
+
 @media screen and (max-width: 576px){
     .nav-options{
         display: none;
