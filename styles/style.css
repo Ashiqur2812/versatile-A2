@@ -271,6 +271,110 @@ body {
     margin-top: 6rem;
 }
 
+.bmi-content{
+    width: 41rem;
+    margin-bottom: 9rem;
+}
+
+.bmi-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.bmi-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.100);
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+ 
+tr th{
+    text-align: start;
+}  
+
+tr td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.calculate-table h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.calculate-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.calculate-container{
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    height: 34rem;
+    padding: 30px 0;
+}
+
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+}
+
+.bmi-form select{
+    background: rgba(255, 255, 255, 0.100);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0 55px;
+    color: #707070;
+}
+
+form select{
+    background: rgba(255, 255, 255, 0.100);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 15px 55px;
+    color: #707070;
+}
+
+form{
+    margin-bottom: 2rem;
+}
+
+input{
+    padding: 15px 55px;
+    background: rgba(255, 255, 255, 0.100);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+}
+
+.your-bmi h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.your-bmi p{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    width: 35rem;
+    margin-bottom: 2.2rem;
+}
+
 @media screen and (max-width: 576px){
     .nav-options{
         display: none;
@@ -294,11 +398,11 @@ body {
     }
 
     .btn-second{
-        padding: 16px 50px;
+        padding: 16px 39px;
     }
 
     #btn{
-        padding: 16px 30px;
+        padding: 16px 19px;
     }
 
     .video-container{
@@ -307,7 +411,7 @@ body {
 
     .workout{
         top: 3rem;
-        right: 1rem;
+        right: -2rem;
     }
 
     .habit-image{
@@ -346,17 +450,17 @@ body {
     }
 
     .extra-mile-description{
-        width: 17rem;
+        width: 15rem;
         margin-left: 1rem;
     }
 
     #join{
-        width: 18rem;
+        width: 15rem;
         margin-left: 1rem;
     }
 
     .extra-image img{
-        width: 18rem;
+        width: 15rem;
         margin-left: 4rem;
     }
 
