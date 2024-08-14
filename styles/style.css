@@ -502,6 +502,57 @@ form{
     right: 270px;
 }
 
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    margin-right: 7rem;
+    padding: 2rem 3rem;
+    /* border: 1px solid red; */
+    margin-top: 7rem;
+}
+
+.fitness h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #E6533C;
+    margin-bottom: 1.5rem;
+}
+
+.fitness p{
+    width: 430px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    line-height: 23px;
+
+}
+
+.start-content h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+}
+
+.start-content p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 70rem;
+}
+
+.footer-description{
+    max-width: 300px;
+    margin:0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 0 3rem 0;
+    font-size: 1.2rem;
+}
+
   /* Responsive Section */
 
 @media screen and (max-width: 576px){
