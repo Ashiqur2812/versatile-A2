@@ -17,7 +17,7 @@ body {
     margin: 3rem auto;
 }
 
-.header{
+.header {
     background-image: linear-gradient(to bottom, #000000, #0d0d0d, #171616, #1e1d1e, #262525, #262525, #262525, #262525, #1e1d1e, #171616, #0d0d0d, #000000);
 }
 
@@ -58,7 +58,7 @@ body {
     margin: 5px 5px;
 }
 
-.ham-burger{
+.ham-burger {
     display: none;
 }
 
@@ -162,7 +162,7 @@ body {
     backdrop-filter: blur(5px);
     position: absolute;
     top: 9rem;
-    right:-1.5rem;
+    right: -1.5rem;
 }
 
 .workout-title,
@@ -189,7 +189,7 @@ body {
     font-weight: 400;
 }
 
-.your-habits-content{
+.your-habits-content {
     width: 40vw;
     margin: 0 auto;
     justify-content: center;
@@ -198,30 +198,30 @@ body {
     margin-top: 6rem;
 }
 
-.habits-title{
+.habits-title {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
 
-.habits-description{
+.habits-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     line-height: 25px;
 }
 
-.habits-line{
+.habits-line {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     line-height: 20px;
     width: 200px;
 }
 
-.image-habit img{
+.image-habit img {
     border-radius: 50%;
 }
 
-.image-description{
+.image-description {
     width: 190px;
     margin: 10px 0;
     justify-content: center;
@@ -229,11 +229,11 @@ body {
     text-align: center;
 }
 
-.pic-title{
+.pic-title {
     margin: 10px 0;
 }
 
-.habit-image{
+.habit-image {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -241,35 +241,35 @@ body {
     gap: 5rem;
 }
 
-#join{
+#join {
     width: 13vw;
     margin-top: 2rem;
 }
 
-.extra-image img{
+.extra-image img {
     width: 24rem;
     margin-left: 7.5rem;
     border-radius: 1rem;
 }
 
-.extra-mile-box{
+.extra-mile-box {
     margin: 0 3rem;
 }
 
-.extra-mile-title{
+.extra-mile-title {
     font-size: 2.8vw;
     font-weight: 900;
     margin-bottom: 1rem;
 }
 
-.extra-mile-description{
+.extra-mile-description {
     width: 25vw;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
     line-height: 20px;
 }
 
-.extra-mile{
+.extra-mile {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background: rgba(48, 48, 48, 0.54);
@@ -282,66 +282,68 @@ body {
     margin-top: 6rem;
 }
 
-.bmi-content{
+.bmi-content {
     width: 41rem;
     margin-bottom: 9rem;
 }
 
-.bmi-content h1{
+.bmi-content h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
 
-.bmi-content p{
+.bmi-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     line-height: 22px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.100);
     border-collapse: collapse;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 20px;
     padding-right: 25px;
-  }
- 
-tr th{
-    text-align: start;
-}  
+}
 
-tr td{
+tr th {
+    text-align: start;
+}
+
+tr td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
 }
 
-.calculate-table h2{
+.calculate-table h2 {
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 3rem;
 }
 
-.calculate-content{
+.calculate-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.calculate-container{
+.calculate-container {
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(5px);
     height: 34rem;
     padding: 30px 0;
 }
 
-.bmi-form{
+.bmi-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem; 
+    gap: 1rem;
 }
 
-.bmi-form select{
+.bmi-form select {
     background: rgba(255, 255, 255, 0.100);
     border: none;
     border-radius: 0.5rem;
@@ -349,7 +351,7 @@ tr td{
     color: #707070;
 }
 
-form select{
+form select {
     background: rgba(255, 255, 255, 0.100);
     border: none;
     border-radius: 0.5rem;
@@ -357,30 +359,30 @@ form select{
     color: #707070;
 }
 
-form{
+form {
     margin-bottom: 2rem;
 }
 
-input{
+input {
     padding: 15px 55px;
     background: rgba(255, 255, 255, 0.100);
     border: none;
     border-radius: 0.5rem;
 }
 
-form{
+form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem; 
+    gap: 1rem;
 }
 
-.your-bmi h2{
+.your-bmi h2 {
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 1.5rem;
 }
 
-.your-bmi p{
+.your-bmi p {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
     width: 35rem;
@@ -388,7 +390,7 @@ form{
     line-height: 20px;
 }
 
-.meet-content{
+.meet-content {
     width: 40vw;
     margin: 0 auto;
     justify-content: center;
@@ -397,19 +399,19 @@ form{
     margin-top: 6rem;
 }
 
-.meet-content h1{
+.meet-content h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
 
-.meet-content p{
+.meet-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     line-height: 20px;
 }
 
-.team-container{
+.team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
@@ -423,103 +425,104 @@ form{
     padding-left: 1.7rem;
 }
 
-.team-container img{
+.team-container img {
     width: 93%;
 }
 
-.team-image img{
+.team-image img {
     height: 93%;
     border-radius: 1.2rem;
 }
 
-.team-image p{
+.team-image p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     position: absolute;
 }
 
-.team-image h3{
+.team-image h3 {
     position: absolute;
 }
 
-.title-1{
+.title-1 {
     top: 255px;
     left: 50px;
 }
 
-.description-1{
+.description-1 {
     top: 280px;
     left: 50px;
 }
 
-.title-2{
+.title-2 {
     top: 255px;
     left: 390px;
 }
 
-.description-2{
+.description-2 {
     top: 280px;
     left: 390px;
 }
 
-.title-3{
+.title-3 {
     top: 255px;
     right: 180px;
 }
 
-.description-3{
+.description-3 {
     top: 280px;
     right: 270px;
 }
 
-.title-4{
+.title-4 {
     bottom: 75px;
     left: 50px;
 }
 
-.description-4{
+.description-4 {
     bottom: 55px;
     left: 50px;
 }
 
-.title-5{
+.title-5 {
     bottom: 75px;
     left: 395px;
 }
 
-.description-5{
+.description-5 {
     bottom: 55px;
     left: 395px;
 }
 
-.title-6{
+.title-6 {
     bottom: 75px;
     right: 185px;
 }
 
-.description-6{
+.description-6 {
     bottom: 55px;
     right: 270px;
 }
 
-.footer-content{
+.footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 6rem;
     margin-right: 7rem;
-    padding: 2rem 3rem;
-    /* border: 1px solid red; */
+    padding: 1rem 3rem;
     margin-top: 7rem;
+    padding-top: 5rem;
+   
 }
 
-.fitness h1{
+.fitness h1 {
     font-size: 4rem;
     font-weight: 900;
     color: #E6533C;
     margin-bottom: 1.5rem;
 }
 
-.fitness p{
+.fitness p {
     width: 430px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
@@ -527,250 +530,298 @@ form{
 
 }
 
-.start-content h2{
+.start-content h2 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2.2rem;
 }
 
-.start-content p{
+.start-content p {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
 
-hr{
+hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 70rem;
 }
 
-.footer-description{
+.footer-description {
     max-width: 300px;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     padding: 0 0 3rem 0;
     font-size: 1.2rem;
 }
 
-  /* Responsive Section */
+.footer-container {
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    height: 30rem;
+}
 
-@media screen and (max-width: 576px){
-    .nav-options{
+/* Responsive Section */
+
+@media screen and (max-width: 576px) {
+    .nav-options {
         display: none;
     }
 
-    .ham-burger{
+    .ham-burger {
         display: block;
         margin-top: 0.8rem;
     }
 
-    .body-section{
+    .body-section {
         flex-direction: column;
     }
-   
-    .body-container h1{
+
+    .body-container h1 {
         font-size: 3rem;
     }
 
-    .body-description{
+    .body-description {
         width: 16rem;
         line-height: 25px;
     }
 
-    .btn-second{
+    .btn-second {
         padding: 16px 39px;
     }
 
-    #btn{
+    #btn {
         padding: 16px 19px;
     }
 
-    .video-container{
+    .video-container {
         margin: 18rem 0;
     }
 
-    .workout{
+    .workout {
         top: 3rem;
         right: -2rem;
     }
 
-    .habit-image{
+    .habit-image {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .habits-title{
+    .habits-title {
         font-size: 1.8rem;
         /* border: 1px solid red; */
         width: 280px;
     }
 
-    .habits-description{
+    .habits-description {
         width: 280px;
         line-height: 25px;
     }
 
-    .your-habits-content{
+    .your-habits-content {
         margin-right: 10rem;
         margin-top: 1%;
     }
 
-    .habits-line{
-        width: 13rem; 
+    .habits-line {
+        width: 13rem;
         margin-left: -0.5rem;
         line-height: 20px;
     }
 
-    .extra-mile{
+    .extra-mile {
         grid-template-columns: repeat(1, 1fr);
         height: 33rem;
     }
 
-    .extra-mile-title{
+    .extra-mile-title {
         width: 15rem;
         font-size: 1.8rem;
         margin-left: 1rem;
     }
 
-    .extra-mile-description{
+    .extra-mile-description {
         width: 15rem;
         margin-left: 1rem;
         width: 250px;
         line-height: 20px;
     }
 
-    #join{
+    #join {
         width: 15rem;
         margin-left: 1rem;
     }
 
-    .extra-image img{
+    .extra-image img {
         width: 15rem;
         margin-left: 4rem;
     }
 
-    .bmi-content{
+    .bmi-content {
         margin-bottom: 3rem;
     }
 
-    .bmi-content h1{
+    .bmi-content h1 {
         font-size: 2.5rem;
     }
 
-    .bmi-content p{
+    .bmi-content p {
         line-height: 25px;
     }
 
-    .calculate-content{
+    .calculate-content {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .your-bmi h2{
+    .your-bmi h2 {
         margin-top: 3rem;
     }
 
-    .your-bmi p{
+    .your-bmi p {
         font-size: 1rem;
         width: 22rem;
         line-height: 25px;
     }
 
-    input{
+    input {
         padding: 15px 0;
     }
 
-    .bmi-form select{
+    .bmi-form select {
         padding: 0 2px;
     }
 
-    form select{
+    form select {
         padding: 15px 2px;
     }
 
-    .your-bmi .btn-second{
+    .your-bmi .btn-second {
         padding: 16px 80px;
     }
 
-    .calculate-container{
+    .calculate-container {
         height: 57rem;
     }
 
-    .meet-content h1{
+    .meet-content h1 {
         font-size: 2.3rem;
         width: 275px;
         /* text-align: start; */
     }
 
-    .meet-content p{
+    .meet-content p {
         width: 275px;
         text-align: center;
         margin-right: 3rem;
         line-height: 25px;
     }
 
-    .team-container{
+    .team-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
         height: 83.5rem;
         width: 90%;
     }
 
-    .team-image{
+    .team-image {
         margin-top: 7px;
         align-items: center;
     }
 
-    .team-image img{
+    .team-image img {
         height: 100%;
     }
 
-    .team-container img{
+    .team-container img {
         width: 92%;
     }
-    
-    #meet{
+
+    #meet {
         margin: 4rem 4.5rem;
     }
 
-    #image-box{
+    #image-box {
         display: none;
     }
 
-    .description-1{
+    .description-1 {
         top: 285px;
         left: 50px;
     }
 
-    .title-2{
+    .title-2 {
         top: 565px;
         left: 50px;
     }
 
-    .description-2{
+    .description-2 {
         top: 595px;
         left: 50px;
     }
 
-    .title-3{
+    .title-3 {
         top: 925px;
         left: 50px;
     }
 
-    .description-3{
+    .description-3 {
         top: 955px;
         left: 50px;
     }
 
-    .title-6{
+    .title-6 {
         bottom: 80px;
         left: 50px;
     }
 
-    .description-6{
+    .description-6 {
         bottom: 60px;
         left: 50px;
     }
 
+    .footer-container {
+        width: 100%;
+        height: 100%;
+    }
 
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .fitness h1 {
+        font-size: 3rem;
+        /* border: 1px solid #E6533C; */
+        max-width: 180px;
+    }
+
+    .fitness p {
+        width: 300px;
+        /* border: 1px solid red; */
+    }
+
+    .footer-content {
+        gap: 2rem;
+        margin-right: 7rem;
+        padding: 4rem 2rem;
+    }
+
+    hr {
+        width: 20rem;
+    }
+
+    #horizon {
+        margin: 0 0 2rem 2rem;
+    }
+
+    .footer-description {
+        text-align: start;
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+
+    .start-content h2{
+        font-size: 1.5rem;
+        margin-bottom: 1.9rem;
+    }
 }
