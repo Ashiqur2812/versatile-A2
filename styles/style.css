@@ -17,6 +17,10 @@ body {
     margin: 3rem auto;
 }
 
+.header{
+    background-image: linear-gradient(to bottom, #000000, #0d0d0d, #171616, #1e1d1e, #262525, #262525, #262525, #262525, #1e1d1e, #171616, #0d0d0d, #000000);
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -72,7 +76,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 25px;
 }
+
+
 
 .btn-second {
     background-color: #E6533C;
@@ -200,11 +207,14 @@ body {
 .habits-description{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
+    line-height: 25px;
 }
 
 .habits-line{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
+    line-height: 20px;
+    width: 200px;
 }
 
 .image-habit img{
@@ -256,6 +266,7 @@ body {
     width: 25vw;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
 }
 
 .extra-mile{
@@ -285,6 +296,7 @@ body {
 .bmi-content p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
+    line-height: 22px;
 }
 
 table, th, td {
@@ -373,6 +385,7 @@ form{
     color: rgba(255, 255, 255, 0.5);
     width: 35rem;
     margin-bottom: 2.2rem;
+    line-height: 20px;
 }
 
 .meet-content{
@@ -393,6 +406,7 @@ form{
 .meet-content p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
+    line-height: 20px;
 }
 
 .team-container{
@@ -407,7 +421,6 @@ form{
     padding-bottom: 10rem;
     border-radius: 1.2rem;
     padding-left: 1.7rem;
-   
 }
 
 .team-container img{
@@ -511,6 +524,7 @@ form{
 
     .body-description{
         width: 16rem;
+        line-height: 25px;
     }
 
     .btn-second{
@@ -542,6 +556,7 @@ form{
 
     .habits-description{
         width: 280px;
+        line-height: 25px;
     }
 
     .your-habits-content{
@@ -552,6 +567,7 @@ form{
     .habits-line{
         width: 13rem; 
         margin-left: -0.5rem;
+        line-height: 20px;
     }
 
     .extra-mile{
@@ -568,6 +584,8 @@ form{
     .extra-mile-description{
         width: 15rem;
         margin-left: 1rem;
+        width: 250px;
+        line-height: 20px;
     }
 
     #join{
@@ -580,8 +598,16 @@ form{
         margin-left: 4rem;
     }
 
+    .bmi-content{
+        margin-bottom: 3rem;
+    }
+
     .bmi-content h1{
         font-size: 2.5rem;
+    }
+
+    .bmi-content p{
+        line-height: 25px;
     }
 
     .calculate-content{
@@ -595,6 +621,7 @@ form{
     .your-bmi p{
         font-size: 1rem;
         width: 22rem;
+        line-height: 25px;
     }
 
     input{
@@ -614,7 +641,85 @@ form{
     }
 
     .calculate-container{
-        height: 55rem;
+        height: 57rem;
     }
+
+    .meet-content h1{
+        font-size: 2.3rem;
+        width: 275px;
+        /* text-align: start; */
+    }
+
+    .meet-content p{
+        width: 275px;
+        text-align: center;
+        margin-right: 3rem;
+        line-height: 25px;
+    }
+
+    .team-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        height: 83.5rem;
+        width: 90%;
+    }
+
+    .team-image{
+        margin-top: 7px;
+        align-items: center;
+    }
+
+    .team-image img{
+        height: 100%;
+    }
+
+    .team-container img{
+        width: 92%;
+    }
+    
+    #meet{
+        margin: 4rem 4.5rem;
+    }
+
+    #image-box{
+        display: none;
+    }
+
+    .description-1{
+        top: 285px;
+        left: 50px;
+    }
+
+    .title-2{
+        top: 565px;
+        left: 50px;
+    }
+
+    .description-2{
+        top: 595px;
+        left: 50px;
+    }
+
+    .title-3{
+        top: 925px;
+        left: 50px;
+    }
+
+    .description-3{
+        top: 955px;
+        left: 50px;
+    }
+
+    .title-6{
+        bottom: 80px;
+        left: 50px;
+    }
+
+    .description-6{
+        bottom: 60px;
+        left: 50px;
+    }
+
+
 
 }
